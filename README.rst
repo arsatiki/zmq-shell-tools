@@ -22,3 +22,14 @@ Obviously a work in progress. Nay! A work in gestation.
 
 I'm first prototyping this on Python to find the proper interface. If time
 and energy permit, I will convert them to C.
+
+
+TODO
+----
+
+- Prototype ZMQ Serve
+- `setup.py` and commands as egg entrypoints
+- Tests
+- `getopt`
+- zrecv should read many sockets (and stdin) and combine their outputs
+
