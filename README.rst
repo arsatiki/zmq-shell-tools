@@ -27,7 +27,6 @@ and energy permit, I will convert them to C.
 TODO
 ----
 
-- Prototype ZMQ Serve
 - `setup.py` and commands as egg entrypoints
 - Tests
 - `getopt`
