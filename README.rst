@@ -30,5 +30,7 @@ TODO
 - `setup.py` and commands as egg entrypoints
 - Tests
 - `getopt`
-- zrecv should read many sockets (and stdin) and combine their outputs
+- zrecv should also pass stdin through
+- zrecv to support sub sockets as well
+? zsend to send to multiple end points?
 
