@@ -19,8 +19,6 @@ worlds smallest echo server::
 TODO
 ----
 
-- proper module structure
-- `setup.py` and commands as egg entrypoints
 - Tests
 - `getopt`
 
