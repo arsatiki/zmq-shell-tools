@@ -1,7 +1,7 @@
 import sys
 import zmq
 
-def main(addresses):
+def mainloop(addresses):
     """foo"""
     ctx = zmq.Context()
     sockets = []
@@ -21,7 +21,9 @@ def main(addresses):
         for socket in sockets:
             socket.close()
         
+def main():
+    mainloop(sys.argv[1:])
         
 if __name__ == '__main__':
-    main(sys.argv[1:])
+    main()
     
